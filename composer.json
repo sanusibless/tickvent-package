@@ -1,0 +1,25 @@
+{
+    "name": "tickvent/streaming",
+    "description": "This is a package that can be use for streaming",
+    "type": "package",
+    "license": "MIT",
+    "extra" : {
+        "laravel": {
+            "providers" : [
+                "Tickvent\\Streaming\\TickventStreamingProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Tickvent\\Streaming\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Blessing Sanusi",
+            "email": "holuwoleh@gmail.com"
+        }
+    ],
+    "require": {}
+}
